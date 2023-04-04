@@ -1,0 +1,409 @@
+* {
+    font-family: 'Poppins', sans-serif;
+} 
+/* index */
+body{
+    background-color: #EEEEEE;
+    margin: 0;
+}
+
+.card {
+ margin: 50px auto;
+ padding: 30px;
+ width: 1000px;
+ background-color: white;
+ font-family: Helvetica;
+ border-radius: 10px;
+ box-shadow: 10px 10px 0px 0px #E8E2E2;
+
+}
+
+.card .content {
+    padding: 50px;
+}
+
+.card .card-img{
+    margin-right: 40px;
+}
+
+div p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.card button{
+    background-color: #19376D;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    padding-top: 10px;
+    width: 160px;
+}
+
+.icon a img {
+    width: 30px;
+    margin: 1px;
+    padding: 1px;
+}
+
+.card-img{
+    margin: auto 10px;
+    box-shadow: 0 0 5px grey;
+    border-radius: 20px;
+}
+
+.card-img img{
+    width: 350px;
+    height: 400px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-img div {
+    text-align: center;
+    margin: 1px auto;
+    padding: 1px 0 15px 0;
+}
+
+.card-img h1 {
+    margin: 3px auto;
+}
+
+.card-img span{
+    font-size: 13px;
+}
+
+
+
+
+
+
+/* ======== Navbar ========*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dbdbdb;
+    padding: 0 40px;
+}
+
+nav img {
+    margin-right: 50px;
+}
+
+.nav-left ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-left ul li{
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: #19376D;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* ======== CSS Form Contac ME ========*/
+
+.form-contact {
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.form-contact div{
+    margin-top: 10px;
+}
+
+.form-contact label{
+    font-weight: bold;
+}
+
+.form-contact input, .form-contact select, .form-contact textarea{
+    width: 100%;
+    background-color: #dfdedf;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.form-contact textarea{
+    resize: none;
+    height: 100px;
+}
+
+.form-contact button {
+    background-color: #19376D;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.form-contact .btn{
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+/* ======== CSS Form myProject dan tampilan ========*/
+
+.formProject {
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.formProject div {
+    margin-top: 10px;
+}
+
+.formProject label {
+    font-weight: bold;
+}
+
+.formProject input, .formProject select, .formProject textarea {
+    width: 100%;
+    background-color: #dfdedf;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.formProject textarea {
+    resize: none;
+    height: 100px;
+}
+
+.formProject button {
+    background-color: #19376D;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.formProject .btn {
+    float: right;
+}
+
+.formProject .checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.formProject .checkbox-line {
+    display: flex;
+    margin-top: 5px;
+}
+
+.formProject .checkbox-column {
+    font-size: 14px;
+    margin-right: 100px;
+}
+
+
+.formProject .checkbox-column label {
+    display: flex;
+    justify-content: baseline;
+}
+
+.formProject .checkbox input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+/* ======== Dibawahnya form Project  ========*/
+
+.cardsProject {
+    width: auto;
+    
+    background-color: white;
+}
+
+.cardProject {
+    display: grid;
+    margin: auto;
+    flex-direction: center;
+    grid-template-columns: auto auto auto;
+}
+
+.cardsProject h1{
+    padding-top: 50px;
+}
+
+
+.cardsProject .cardBodyProject {
+    background-color: rgb(235, 235, 235);
+    max-width: min-content;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.cardsProject .img {
+    margin: 25px;
+}
+
+.cardsProject img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+        
+}
+
+.cardsProject .cardDesripsion {
+    padding: 0 10px 0 10px;
+}
+
+.cardDesripsion a{
+    color: black;
+    text-decoration: none;
+
+}
+.cardDesripsion h3 {
+    margin: -20px auto 1px 0px;
+}
+
+.cardDesripsion span {
+    margin-bottom: 100px;
+    font-size: 13px;
+} 
+
+.cardDesripsion p {
+    font-size: 15px;
+    
+}
+
+.cardBodyProject .imgtech img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+.cardBodyProject .imgtech {
+    margin: 20px auto 10px 0px;
+}
+
+.cardsProject .cardBodyProject .control-button a{
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 60px;
+}
+
+
+
+
+/* ======== Detail Project ======== */
+
+.containerDetailp {
+    background-color: #EEEEEE;
+    margin: 50px;
+}
+
+.containerDetailp h1 {
+    padding-bottom: 20px;
+}
+
+.detailphead {
+    display: flex;
+}
+
+.imgPostingan img {
+    width: 800px;
+    height: 500px;
+}
+
+.detailpostingan .detail {
+    margin-left: 30px;
+    
+}
+
+.detailpostingan .detailJudul {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.detail .isiDetail {
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+
+.detail .isiDetail2 {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
